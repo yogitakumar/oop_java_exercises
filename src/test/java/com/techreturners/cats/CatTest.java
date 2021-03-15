@@ -4,8 +4,10 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class CatTest {
+import org.junit.Ignore;
 
+public class CatTest {
+  
     @Test
     public void checkCatIsAwake() {
         Cat domesticCat = new DomesticCat();
@@ -34,13 +36,13 @@ public class CatTest {
     }
 
     @Test
-    public void checkCatHeight() {
+   public void checkCatHeight() {
         Cat domesticCat = new DomesticCat();
         assertEquals(23, domesticCat.getAverageHeight());
     }
 
     @Test
-    public void checkLionHeight() {
+     public void checkLionHeight() {
         Cat lionCat = new LionCat();
         assertEquals(1100, lionCat.getAverageHeight());
     }
