@@ -1,3 +1,4 @@
+
 package com.techreturners.cats;
 
 import org.junit.Test;
@@ -10,6 +11,7 @@ public class CatTest {
   
     @Test
     public void checkCatIsAwake() {
+        
         Cat domesticCat = new DomesticCat();
         assertFalse("Cat should be awake by default", domesticCat.isAsleep());
     }
